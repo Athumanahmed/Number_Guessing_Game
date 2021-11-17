@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css" integrity="sha512-EZLkOqwILORob+p0BXZc+Vm3RgJBOe1Iq/0fiI7r/wJgzOFZMlsqTa29UEl6v6U6gsV4uIpsNZoV32YZqrCRCQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <title>Guessing Game</title>
+  <style>
+      .container{
+          display: grid;
+          place-items: center;
+      }
+  </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card md-2 mb-3 mt-4" style="width: 30rem;">
+            <div class="card-header">
+                <img src="img/20210121_102833.jpg" class="card-img-top img-fluid">
+            </div>
+            <div class="Card-body">
+                <div class="card-title text-center  bg-info"> <strong>GAME DESCRIPTION</strong></div>
+                <p class="card-text text-center"> 
+                    Hi, My name is Athumani Ahmed. I am the owner and the developer of this number guessing game.I'm currently
+                    training Software Development specifically web development. I created this game as a prototype and a simple project to sharpen up my skills as I progress during my learning process.
+                    I kindly need your time and your support in playing this game. <strong>I have prepared some special award to winners of this game.</strong>
+                </p>
+    
+                <div class="card-title text-center bg-danger text-white"><strong>GAME RULES</strong></div>
+                <p class="card-text text-center">
+                    
+                    This is a Number Guessing Game which needs a player to guess a number between <strong>1</strong> and 
+                    <strong>25</strong>. <span class="text-danger"> <strong>Negative Numbers are not allowed in this Game</strong></span>
+                </p>
+
+                <p class="text-center"><span class="text-danger"><strong>1.</strong></span> The Game last for <strong>24Hrs</strong> after that the winners wil be announced</p> 
+
+               <p class="text-center"><span class="text-danger"><strong>2.</strong></span> If you win the game take a screenshot and submit it via the whatsApp link which appears as button below.</p> 
+
+               <p class="text-center"><span class="text-danger"><strong>3.</strong></span> Play again so that you can submit three screenshots to win the game.</p> 
+
+               <p class="text-center"><span class="text-danger"><strong>4.</strong></span> The award is a free <strong>1 GB</strong> each for the first three winners. if the game is over and there are two winners each winner will get <strong>2 GB </strong> free. lastly if it happens that there is only one winner He/She will get <strong>3 GB</strong> and you may choose wether you need money or <strong>3GB.</strong>The amount of money you recieve is respective to purchase <strong>3 GB</strong> Depending on your network you are using.</p> 
+
+               <p class="text-danger text-center"><strong>ANY KIND OF CHEATING OR BREAKING ANY OF THE GAME RULES YOU WILL  BE DISQUALIFIED.</strong></p>
+               <p class="text-success text-center"><strong>I am smart and so is the game.</strong></p>
+              
+                <p class="card-title bg-primary text-white text-center mb-2 P-3"><strong>REQUEST</strong></p>
+                <div class="card-text text-center P-2 mb-3">I would like to receive comments, views, and any compliments you might have about the game. You may use the button below for this.</div>
+
+                <div class="card-title bg-warning  text-center P-3 mb-2"> <strong>SUBMISSION</strong></div>
+                <p class="card-text text-center mb-3"> Play the game <strong>three times </strong> each round you win submit your screenshot via the whatsApp button below.
+                <li class="ms-2"><span class="text-danger"><strong>Submit Your Screenshot.</strong></span></li>
+                <li class="ms-2"><span class="text-danger"><strong>Submit Your Phone Number.</strong></span></li>
+                <li class="ms-2"><span class="text-danger"><strong>Submit Your Name registered in your phone number.</strong></span></li>
+                
+                </p>
+            </div>
+            <a href="https://wa.me/message/KSDE5JWGCBXBG1" class="btn btn-success mb-2"><i class="fab fa-whatsapp fa-2x"></i> <strong>SUBMIT VIA WHATSAPP</strong></a>
+        </div>
+
+
+        <h1>Number Guessing Game</h1>
+        <div id="game">
+            <p>Guess a number between <span class="min-num">1</span> and <span class="max-num">25</span></p>
+            <input type="number"  id="guess-input" placeholder="Enter your guess...">
+            <input type="submit" value="Submit" id="guess-btn">
+            <p class="message"></p>
+        </div>
+
+        <footer class="main-footer bg-dark text-white p-3 mb-3">Copyright &copy; 2021 Created by Athumani Ahmed</footer>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    <script src="Js/app.js"></script>
+</body>
+</html>
